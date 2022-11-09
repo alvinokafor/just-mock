@@ -5,7 +5,7 @@ The first thing to do is create a personal copy of the project in your GitHub ac
 
 ![image showing ‘Fork’ button](./assets/fork.png)
 
-Make sure to only fork the dev branch. Confirm that this box is checked when creating your fork.
+Make sure to only fork the `dev` branch. Confirm that this box is checked when creating your fork.
 
 ![image showing box to check](./assets/fork2.png)
 
@@ -14,17 +14,15 @@ Make sure to only fork the dev branch. Confirm that this box is checked when cre
  
 ![image](./assets/copy2.png)
 
-Go to your terminal and run:
+Go to your terminal and run `git clone` with the link you copied.
 
-	git clone [link you copied]
+Like so:
 
-Example:
-
-	git clone https://github.com/octocat/just-mock
+	git clone https://github.com/YOUR_NAME/just-mock
 
 Since there will be several work by other developers going on at the same time, your local copy should be updated frequently. To set that up, run this command to connect your local copy to the original repository:
 
-		git remote add upstream https://github.com/tao200ok/just-mock.git
+	git remote add upstream https://github.com/tao200ok/just-mock.git
 <br/>
 
 >NOTE: Nodejs and npm are required to continue following this guide.
@@ -38,12 +36,12 @@ Since there will be several work by other developers going on at the same time, 
 
 To complete your set up,  use these commands to navigate to the project directory and install its dependencies:
 
-		cd just-mock
-		npm install
+	cd just-mock
+	npm install
 
 Start the local development server:
 
-        npm start
+    npm start
 
 Finally, open your browser and visit [http://localhost:3000](http://localhost:3000) to explore the app.
 
@@ -70,17 +68,17 @@ Great! Now you can start making and committing changes on the new branch.
 ### Make your commits
 It is good practice to make regular commits as you work on your feature.
 
-		git commit -m "message"
+	git commit -m "message"
 
 Commit messages should be concise and follow a format similar to the above:
 For example,
 
-		git commit -m "feat: add validation to login form"
+	git commit -m "feat: add validation to login form"
 to commit changes made to add a new feature in the login form.
 
 Tip: Update your local copy at intervals to keep in sync with the original repository.
 
-		git pull upstream
+	git pull upstream
 		
 ## Submit your contribution
 To get your contribution merged to the original repository, create and submit a pull request. After pushing your changes to your Github, follow the steps below.
