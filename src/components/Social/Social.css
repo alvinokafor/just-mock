@@ -1,0 +1,16 @@
+div.social_links {
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+    border-radius: 8px;
+}
+
+a.social {
+    width: 100%;
+    padding: 0px 12px;
+    text-align: center;
+}
+
+a.social:visited {
+    color: initial;
+}
