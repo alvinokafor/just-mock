@@ -1,4 +1,33 @@
-# Getting Started with Create React App
+# Hydraulics Frontend Mock Repository.  
+## Introduction. 
+This repository contains a project used for practice by the Frontend team.  
+
+__NOTE__: If you’re a team member, use [this guide](./docs/CONTRIBUTING.md) to setup the project for your contributions.  
+
+### How to run it.
+ Run this project on your machine by navigating to the folder where you want to locate the project and following the steps below.
+
+1.  Clone the repository by running this command in the terminal:  
+
+		git clone https://github.com/tao200ok/just-mock
+
+2. Navigate to the project folder:
+
+		cd just-mock
+
+3. Install the dependencies:
+	
+		npm install
+
+4. Start the local development server:
+
+		npm start
+
+5. Finally, open your browser and visit [http://localhost:3000](http://localhost:3000) to explore the app.  
+
+
+# Additional Guide from Create-react-app.
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
